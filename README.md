@@ -1,2 +1,2 @@
 # ScriptsPublic
-Random scripts I write for random scenario.
+Scripts I write for different scenario.
