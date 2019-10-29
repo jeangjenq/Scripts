@@ -12,3 +12,11 @@ fsutil reparsepoint delete "C:\Path\To\Folder"
 Launch terminal via python in different linux distros.
 
 I realized since there's no such thing as default linux launcher, and my python code that requires to launch a terminal window doesn't always work on different linux distros. This python script loop through [list](https://github.com/i3/i3/blob/next/i3-sensible-terminal) of terminals and find out which terminal is available on the machine that runs it.
+
+## [mkvRename](./mkvRename.py)
+Batch rename MKV title to filename with the help of mkvpropedit
+
+This scripts renames all the mkv files' title to its filename using [mkvpropedit](https://mkvtoolnix.download/doc/mkvpropedit.html)
+```batch
+mkvpropedit file -e info -s title
+```
