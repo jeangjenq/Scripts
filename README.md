@@ -8,3 +8,7 @@ This scripts deletes all reparse points in OneDrive folders by looping fsutill c
 ```batch
 fsutil reparsepoint delete "C:\Path\To\Folder"
 ```
+## [terminalLauncher](./terminalLauncher.py)
+Launch terminal via python in different linux distros.
+
+I realized since there's no such thing as default linux launcher, and my python code that requires to launch a terminal window doesn't always work on different linux distros. This python script loop through [list](https://github.com/i3/i3/blob/next/i3-sensible-terminal) of terminals and find out which terminal is available on the machine that runs it.
