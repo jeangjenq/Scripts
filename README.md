@@ -1,6 +1,11 @@
 # ScriptsPublic
 Scripts I write for different scenarios I encounter, often for bulk operation. Most of these are written in python but can utitlize other launguages.
 
+## AutoHotkeys
+### [mouseVolumeControl.ahk](./AutoHotkeys/mouseVolumeControl)
+Assign mouse button1 and button2 to volume up/down. Hold button to continuously raise/lower volume.
+
+
 ## [deleteReparsePoints.py](./deleteReparsePoints.py)
 Windows 10 started creating reparse points on all OneDrive files/folders after a fall creator's update. It's part of the feature that breaks usage of that folder in mutliple OSs, an issue I described on my [website](http://www.jeangjenq.com/windows-10-delete-reparse-points-in-subdirectories/).
 
