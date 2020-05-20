@@ -27,3 +27,6 @@ This scripts renames all the mkv files' title to its filename using [mkvpropedit
 ```batch
 mkvpropedit file -e info -s title
 ```
+
+### [voicemeeter_macros.xml](./voicemeeter_macros.xml)
+My [Voicemeeter Banana](https://www.vb-audio.com/Voicemeeter/banana.htm) macro buttons setup
