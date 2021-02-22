@@ -2,10 +2,10 @@ import os
 natron_exec = "D:/natron/bin/NatronRenderer.exe"
 
 # shot input, color and output
-file_input = "W:/Archive/Freelance/Blockhead/2019/BJ1001_KLAUS/KLS_402_003_070/comp/MEDIA/Read16/delivery/output/KLS_402_003_070_c-up_v002.1097.dpx"
-ccc = "W:/Archive/Freelance/Blockhead/2019/BJ1001_KLAUS/KLS_402_003_070/comp/cdl_lut_test.cc"
-cube = "W:/Archive/Freelance/Blockhead/2019/BJ1001_KLAUS/setup/Li_Color2_FILM.cube"
-file_output = "D:/natron_command_test.jpg"
+file_input = ""
+ccc = ""
+cube = ""
+file_output = ""
 
 # specify natron template and output location
 template = "D:/natron_LUT_template.py"
